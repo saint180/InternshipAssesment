@@ -39,9 +39,6 @@ export default function Home() {
               <div className="flex justify-center">
                 <FileUpload onTranscribe={handleTranscribe} isLoading={isLoading} />
               </div>
-              <div className="flex justify-center">
-                <MicrophoneRecorder onTranscribe={handleTranscribe} isLoading={isLoading} />
-              </div>
             </div>
           )}
         </div>
