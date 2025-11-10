@@ -88,7 +88,7 @@ export function FileUpload({ onTranscribe, isLoading = false }: FileUploadProps)
             Transcribing...
           </>
         ) : (
-          <>📤 Transcribe File</>
+          <>Transcribe File</>
         )}
       </Button>
     </form>
