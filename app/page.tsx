@@ -36,7 +36,7 @@ export default function Home() {
             </div>
           ) : (
             <div className="grid md:grid-cols-2 gap-8 items-start justify-center">
-              <div className="flex justify-center">
+              <div className="flex justify-center items-center min-h-screen">
                 <FileUpload onTranscribe={handleTranscribe} isLoading={isLoading} />
               </div>
             </div>
